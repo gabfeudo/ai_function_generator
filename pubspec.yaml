@@ -8,6 +8,7 @@ environment:
 
 dependencies:
   ai_function: ^1.0.0
+  analyzer: ^5.10.0
   build: ^2.3.1
   dio: ^5.1.1
   source_gen: ^1.2.7
