@@ -7,7 +7,7 @@ targets:
 builders:
   generators:
     target: ":generators"
-    import: "package:ai_function_generator/builder.dart"
+    import: "package:ai_function_generator/ai_function_generator.dart"
     builder_factories: ["generateAiFunction"]
     build_extensions: { ".dart": [".g.dart"] }
     auto_apply: dependents
