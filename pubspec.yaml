@@ -1,14 +1,13 @@
 name: ai_function_generator
-description: A starting point for Dart libraries or applications.
+description: A GPT-4 based code generator for Dart (see ai_function package)
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/gabfeudo/ai_function_generator
 
 environment:
   sdk: ">=2.19.6 <3.0.0"
 
 dependencies:
-  ai_function:
-    path: ../ai_function
+  ai_function: ^1.0.0
   build: ^2.3.1
   dio: ^5.1.1
   source_gen: ^1.2.7
